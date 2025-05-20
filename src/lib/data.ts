@@ -1,3 +1,4 @@
+import { i, title } from "framer-motion/client";
 
 
 export const personalInfo = {
@@ -109,56 +110,29 @@ export const projects = [
       "Incluye funcionalidades de gestión de usuarios, metas, recompensas y un sistema de notificaciones.",
     ],
   },
+  {
+    title: "Landing Page tipo portafolio",
+    github: "https://github.com/NoobTrialEngineer/portafolio",
+    isMinor: true,
+    description: [
+      "Portafolio creado con la plantilla de Rishikesh S., el cual incluye un diseño responsivo y animaciones. Construido con Astro, Tailwind CSS y React. Desplegado con Vercel.",
+    ],
+  },
+  {
+    title: "Parkaching",
+    github: "https://github.com/NoobTrialEngineer/parkcaching",
+    description: [
+      "ParkCaching es una aplicación móvil de Flutter que combina los principios del geocaching con la realidad aumentada (RA) para mejorar la experiencia de explorar parques y espacios públicos. Los usuarios pueden descubrir objetos virtuales ocultos escaneando códigos QR ubicados en diferentes ubicaciones y visualizar modelos 3D en RA.",
+    ],
+    isMinor: true,
+    },
+    {
+      title: "Administración hospitales con websockets",
+      github: "https://github.com/NoobTrialEngineer/hospitales",
+      isMinor: true,
+      description: [
+        "Sistema de administración de hospitales utilizando websockets para la comunicación en tiempo real entre el servidor y los clientes. Construido con ReactJS, Java y MySQL.",
+      ]
+    }
 ];
 
-export const awards = [
-  {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
-];
